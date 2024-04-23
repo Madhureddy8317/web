@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    background-color: white;
+    padding: 10px;
+}
+.img{
+    width: 200px;
+    margin-left: 50px;
+}
+.a1{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    
+}
+.a2{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    margin-left: 250px;
+}
+.a3{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    margin-left: 70px;
+    
+}
+.a4{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    margin-left: 60px;
+}
+.click{
+    background-color: lightseagreen;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.a5{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.img2{
+    margin-left: 70px;
+    width: 1200px;
+    height: 600px;
+}
+.para{
+    background-color: grey;
+    font-size: 30px;
+    width: 1200px ;
+    margin-left: 70px;
+    text-align: center;
+    border-bottom: 5px solid black;
+}
+.top2{
+    display: flex;
+    background-color: white;
+    width: 1000px;
+    margin-left: 200px;
+    margin-top: 50px;
+    height: 200px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+.img3{
+    width: 400px;
+    padding: 50px;
+    
+}
+.para1{
+    padding: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+.click1{
+    border: none;
+    background-color: lightseagreen;
+    padding: 20px;
+    margin-left: 150px;
+    width: 300px;
+    border-radius: 5px;
+}
+.a6{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.frame{
+    margin-top: 30px;
+    margin-left: 200px;
+    width: 1000px;
+}
+.top3{
+    background-color: gray;
+    width: 1000px;
+    height: 70px;
+    margin-left: 200px;
+}
+.click2{
+    padding: 10px;
+    margin-left: 220px;
+    margin-top: 20px;
+    width: 500px;
+    border-radius: 5px;
+}
+/* Laptop */
+
+@media screen and (min-width:769px) and (max-width:1025px){
+    .a1{
+        font-size: 15px;
+    }
+    .a2{
+        margin: 40px;
+    }
+    .a3{
+        margin: 10px;
+    }
+    .img2{
+        width: 950px;
+        margin-left: 30px;
+    }
+    .para{
+        width: 950px;
+        margin-left: 30px;
+    }
+    .top2{
+        width: 950px;
+        margin-left: 30px;
+    }
+    .frame{
+        width: 950px;
+        margin-left: 30px;
+    }
+    .top3{
+        width: 950px;
+        margin-left: 30px;
+    }
+}
+
+/* tablet */
+@media screen and (min-width:426px) and (max-width:769px) {
+    .a2{
+        margin-left: 20px;
+    }
+    .a3{
+        margin-left: 20px;
+    }
+}
